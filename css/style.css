@@ -1,0 +1,334 @@
+/* Advanced Technical Services official website
+ * Copyright GotooLab &coppy; 2019
+ * Author: Gotoolab    
+ */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+/* --------------------------------
+ * Typography
+ * -------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap);
+h1, h2, h3, h4, h5, h6, p, article, div, li {
+  font-family: "Lato", sans-serif;
+  color: #383838; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.bolder {
+  font-weight: 900; }
+
+.bold {
+  font-weight: 700; }
+
+.regular {
+  font-weight: 400; }
+
+.light {
+  font-weight: 300; }
+
+.thin {
+  font-weight: 100; }
+
+.tLarge {
+  font-size: 1.2em;
+  border-bottom: 1px solid #0a0a0a; }
+
+.xLarge {
+  font-size: 2.5rem; }
+
+.large {
+  font-size: 2.2rem; }
+
+.big {
+  font-size: 2rem; }
+
+.normal {
+  font-size: 1.45rem; }
+
+.small {
+  font-size: 1.2em; }
+
+.extraSmall {
+  font-size: 0.8em; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+.lp11 {
+  letter-spacing: 1.1px; }
+
+.landText {
+  text-shadow: 6px 1px 8px #0a0a0a; }
+
+.titleCenterBg {
+  margin: 20px 0;
+  text-transform: capitalize;
+  font-size: 2.5em;
+  color: #0a0a0a;
+  letter-spacing: 2.2px;
+  text-align: center;
+  font-weight: 300; }
+
+.genContent {
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  text-shadow: 0.5px 0px 0px #0a0a0a; }
+
+/* --------------------------------
+ * Base style
+ * -------------------------------- */
+*, html, body {
+  margin: 0 auto !important;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); }
+
+.hide {
+  display: none; }
+
+.bottomPd70 {
+  padding-bottom: 70px; }
+
+.white {
+  color: #f5f0f0; }
+
+.tbPadding10 {
+  padding: 10px 0; }
+
+.tbPadding20 {
+  padding: 20px 0; }
+
+.tbPadding30 {
+  padding: 30px 0; }
+
+.img100 {
+  width: 100%;
+  height: auto; }
+
+.contButton {
+  margin: 30px 0;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  background: #f5f0f0;
+  margin-top: 15px !important; }
+  .contButton:hover {
+    transform: scale(0.98);
+    transition: 0.3s ease-out; }
+  .contButton a {
+    color: #383838;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px; }
+
+.my-slider {
+  clear: both;
+  text-align: center; }
+  .my-slider img {
+    width: 80%; }
+
+.formArea {
+  margin: 0 auto !important;
+  width: 75%; }
+
+input, textarea {
+  padding: 18px 20px;
+  margin: 4px 0;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 5px 10px 2px #383838; }
+  input:focus, textarea:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 0.6); }
+
+#submit {
+  margin: 20px 0; }
+
+::placeholder {
+  color: #f5f0f0;
+  text-shadow: 2px 1px 4px #383838; }
+
+input[type="submit"] {
+  width: 150px;
+  padding: 15px 0;
+  margin-top: 20px !important;
+  font-family: FontAwesome, "Lato", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f5f0f0;
+  font-weight: 400;
+  text-shadow: 2px 1px 4px #383838; }
+
+/* --------------------------------
+ * Header
+ * -------------------------------- */
+.navbar {
+  padding: 10px 0; }
+
+.scrolled-nav {
+  background: #3e51a3 !important; }
+
+.collapse.show {
+  position: relative;
+  padding: 40px 0;
+  background: #3e51a3; }
+
+.navbar-collapse {
+  margin: 0 auto;
+  text-align: center; }
+
+.nav-item {
+  padding: 0 10px; }
+  .nav-item .nav-link {
+    color: #fff;
+    opacity: 0.99;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    border-bottom: 2px solid transparent; }
+    .nav-item .nav-link:hover {
+      opacity: 1;
+      border-bottom: 2px solid #f5f0f0; }
+
+body {
+  background: #f5f0f0; }
+
+#home {
+  height: 100vh;
+  width: 100%; }
+
+.homeLanding {
+  background: url("../assets/img/bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  background-attachment: fixed; }
+
+.transLayer {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh; }
+
+.transLayerWhite {
+  background: rgba(255, 255, 255, 0.94);
+  width: 100%; }
+
+.ladContent {
+  width: 100%;
+  height: 100vh;
+  color: #f5f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+
+.centeredTitle {
+  padding: 100px 0 30px 0; }
+
+.thumbGrid {
+  margin: 0 auto;
+  text-align: center; }
+  .thumbGrid img {
+    width: 85%; }
+  .thumbGrid p {
+    padding: 20px 0; }
+
+.seviceDiv {
+  height: 125px;
+  display: table;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 12px !important;
+  box-shadow: 6px 5px 10px 2px #383838;
+  border-radius: 20px;
+  cursor: pointer; }
+  .seviceDiv:hover {
+    transition: 0.5s ease-out;
+    background: rgba(0, 0, 0, 0.6); }
+  .seviceDiv .serviceTitle {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #f5f0f0;
+    text-shadow: 2px 1px 4px #383838;
+    margin: 10px; }
+    .seviceDiv .serviceTitle i {
+      margin-right: 10px; }
+
+#whyus {
+  background: url("../assets/img/aboutBg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#contact {
+  background: url("../assets/img/team.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+/* --------------------------------
+ * Footer
+ * -------------------------------- */
+footer {
+  background: #3e51a3; }
+
+.footerBrand {
+  padding: 30px 0; }
+  .footerBrand article {
+    font-size: 1em; }
+  .footerBrand img {
+    width: 100px;
+    height: auto; }
+
+.footerNav {
+  padding: 40px 0 30px 0;
+  margin-left: 20px; }
+
+#map {
+  padding: 30px 0; }
+
+.contInfo {
+  list-style: none; }
+  .contInfo li {
+    color: #f5f0f0;
+    padding: 10px 0;
+    font-weight: 300; }
+    .contInfo li a {
+      color: #f5f0f0;
+      opacity: 0.9; }
+      .contInfo li a:hover {
+        opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
