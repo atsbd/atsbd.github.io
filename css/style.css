@@ -189,6 +189,8 @@ input[type="submit"] {
  * -------------------------------- */
 .navbar {
   padding: 10px 0; }
+  .navbar .navbar-brand {
+    font-size: 1rem; }
 
 .scrolled-nav {
   background: #3e51a3 !important; }
