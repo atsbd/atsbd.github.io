@@ -17,8 +17,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.helper.ie8.js"></script><![endif]-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -290,7 +289,9 @@
                                 <textarea id="message" name="msg" placeholder="Your Message"
                                     style="height:200px"></textarea>
                                 <br>
-                                <input id="submit" type="submit" value="&#xf1d8  Send">
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <!-- <input id="submit" type="submit" value="&#xf1d8 Send" > -->
+                                <button id="submit" type="submit" class="submitbtn"><i class="fas fa-paper-plane"></i> Send</button>
                                 <input type="hidden" name="_next" value="" />
                                 <div id="response" class="c-mainform_response">
                             </form>
@@ -369,6 +370,7 @@
             mouseDrag: true,
             controls: false,
             autoplay: true,
+            speed: 400,
             responsive: {
                 640: {
                     edgePadding: 20,

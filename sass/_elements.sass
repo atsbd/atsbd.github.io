@@ -50,16 +50,23 @@ input, textarea
 ::placeholder
     color: $colorWhite  
     text-shadow: 2px 1px 4px $colorBlack  
-
-input[type="submit"]
+// submit button
+.submitbtn
     width: 150px
     padding: 15px 0
     margin-top: 20px !important
-    font-family: FontAwesome, $fontAll
     font-size: 1.4em
     text-align: center
     background: rgba(0, 0, 0, .5)
     color: $colorWhite
     font-weight: 400
     text-shadow: 2px 1px 4px $colorBlack
-    
+    border: none
+    border-radius: 10px
+    box-shadow: 6px 5px 10px 2px $colorBlack
+    transition: .2s ease-out
+    i 
+        padding-right: 5px 
+    &:hover
+        transform: scale(.98)
+        box-shadow: 3px 2px 5px 2px $colorBlack
