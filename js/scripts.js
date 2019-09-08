@@ -57,4 +57,3 @@ $("#contactform").validate({
 });
 // get the year
 document.getElementById("year").innerHTML = new Date().getFullYear();
-
