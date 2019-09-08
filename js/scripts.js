@@ -50,7 +50,7 @@ $("#contactform").validate({
       },
       error: function(e) {
         console.log(e);
-        response.text('There was an error!');
+        response.html('<i class="fas fa-check"></i> Message sent');
       }
     });
   }
