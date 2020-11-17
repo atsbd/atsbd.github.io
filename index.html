@@ -2,406 +2,520 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#0046B0" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description"
-        content="ATS - Advanced Technical Services specialized in Construction, Mechanical & Electrical Solutions.">
-    <meta name="keywords"
-        content="construction, mechanical, electrical, engineering, technical, services, solutions, material, equipment, suppy, supplier, heavy, vehicle, rent, sell, contractor, bangladesh">
-    <meta name="author" content="Advanced Technical Services">
-    <meta name="theme-color" content="#3e51a3">
-    <title>ATS - Advanced Technical Services | Constructions, Mechanical & Electrical solutions</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
-    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.helper.ie8.js"></script><![endif]-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="css/gallery.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>ATS | Advanced Technical Services</title>
 </head>
 
 <body>
-    <header>
-        <div class="navbar navbar-expand-sm bg-transparent navbar-dark justify-center fixed-top">
-            <div class="container" style="max-width: 100%; margin: 0;">
-                <!-- Brand -->
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logoAlt.png" alt="Advanced Technical Services"
-                        style="width: 50px; height: auto; margin-right: 10px !important;"> Advanced Technical
-                    Services</a>
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler text-light" type="button" data-toggle="collapse"
-                    data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar links -->
+    <header class="bgTransparent">
 
-                <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#whyus">Why US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- end of the navigation -->
-    </header>
-    <!-- end of the universal header -->
-    <main>
-        <!-- ==========================================
-        Homepage landing part
-        ========================================== -->
-        <section id="home" class="homeLanding">
-            <div class="transLayer">
-                <div class="container">
-                    <div class="ladContent">
-                        <h2 class="landText white regular xLarge tbPadding10">Construction, Mechanical & Electrical
-                            Solutions
-                            <br>
-                            <span class="white light normal lp11 tbPadding10">
-                                Specialized in project support, heavy equipment supply and materials Supply
-                            </span>
-                        </h2>
-                        <button class="contButton">
-                            <a href="#contact">Contact/Queries</a>
-                        </button>
+        <div class="navbar">
+            <div class="container">
+                <nav class="navPrimary">
+                    <a href="/">
+                        <div class="logoNav">
+                            <img src="assets/img/logoBlue.jpg" alt="ATS">
+                        </div>
+                    </a>
+                    <div class="navToggler">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
                     </div>
+                    <ul class="navPrimaryLinks">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- end of the navbar container -->
+        </div>
+        <!-- end of the whole navbar -->
+    </header>
+    <!-- end of the header -->
+    <main>
+        <!-- ==================================== 
+            Home Landing Part 
+        ====================================== -->
+        <div class="homeWrapper">
+            <div class="backgroundVideo">
+                <video class="bgVid" autoplay loop muted>
+                    <source src="assets/vdu/pexels-richard-he-5567022.mp4">
+                </video>
+            </div>
+            <div class="blackTransLayer">
+                <div class="container">
+                    <div class="row homeLanding align-items-center">
+                        <div class="col-md-7 col-sm-12 homeLandingLeft" data-aos="fade-up"
+                        data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                            <!-- <h1 class="titleMain">Advanced Technical Services</h1> -->
+                            <article class="articleMain">
+                                Constructions, Mechanical & Electrical Solutions. Specialized in project
+                                support, heavy equipment supply and materials Supply.
+                            </article>
+                            <div class="buttonWraper">
+                                <a href="#services">
+                                    <button class="button">
+                                        Our Services <i class="fas fa-arrow-right buttonI yellow"></i>
+                                    </button>
+                                </a>
+                                <a href="#contact">
+                                    <button class="button">
+                                        Get A Quote <i class="fas fa-arrow-right buttonI yellow"></i>
+                                    </button>
+                                </a>
+                            </div>
+                            <!-- end of the button wraper -->
+                        </div>
+                        <!-- end of the home landing leftside -->
+                        <div class="col-md-5 col-sm-12 homeLandingRight">
+                            <img src="assets/img/landMain.png" alt="Advanced Technical Services">
+                        </div>
+                        <!-- end of the home landing rightside -->
+                    </div>
+                    <!-- home landing part row -->
                 </div>
-                <!-- end of the landing content container -->
+                <!-- end of the landing content part -->
             </div>
             <!-- end of the transparent layer -->
-        </section>
-        <!-- end of the main landing part -->
-        <!-- ==========================================
-        Services
-        ========================================== -->
-        <section id="services">
-            <div class="container bottomPd70">
-                <div class="centeredTitle">
-                    <h3 class="titleCenterBg">Our <span class="bolder tLarge">Services</span></h3>
-                </div>
-                <!-- end of the centered section title -->
-                <div class="row center servicesList">
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> On Site Engineering</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Logistic & Vehicle Rent</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Equipment Supply & Rent</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Skilled Manpower</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Load Test & Pressure Test</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> C & F Works</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Steel Structure Fabrication</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Materials Supply</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="seviceDiv">
-                            <h3 class="serviceTitle"><i class="fas fa-check"></i> Construction Materials Supply</h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of the services row -->
-            </div>
-            <!-- end of the whole services container -->
-        </section>
-        <!-- end of the whole services section -->
-        <!-- ==========================================
-        Why US 
-        ========================================== -->
-        <section id="whyus">
-            <div class="transLayerWhite">
-                <div class="container bottomPd70">
-                    <div class="centeredTitle">
-                        <h3 class="titleCenterBg">why <span class="bolder tLarge uppercase">ats</span></h3>
-                    </div>
-                    <!-- end of the centered section title -->
-                    <article class="genContent normal light center">
-                        ATS mission is to continually improve and develop for providing better services to meet and
-                        exceed
-                        customers expectations and contribute to their success. ATS committed to guaranteeing its
-                        customer
-                        satisfaction so that they can build true and collaborative relations with them, and sets itself
-                        a
-                        reliable, qualified and trustworthy partner.
-                    </article>
-                    <div class="centeredTitle">
-                        <h3 class="titleCenterBg">Our Values</h3>
-                    </div>
-                    <!-- end of the centered section title -->
-                    <div class="row d-flex justify-content-center thumbGrid">
-                        <div class="col-md-2 col-4">
-                            <img src="assets/icons/safety.png" alt="Safety" class="thumb">
-                            <p class="bold extraSmall">1. Safety First</p>
-                        </div>
-                        <!-- end of individual thumb -->
-                        <div class="col-md-2 col-4">
-                            <img src="assets/icons/solution.png" alt="Solution" class="thumb">
-                            <p class="bold extraSmall">2. Solution</p>
-                        </div>
-                        <!-- end of individual thumb -->
-                        <div class="col-md-2 col-4">
-                            <img src="assets/icons/leadership.png" alt="Leadership" class="thumb">
-                            <p class="bold extraSmall">3. Leadership</p>
-                        </div>
-                        <!-- end of individual thumb -->
-                        <div class="col-md-2 col-4">
-                            <img src="assets/icons/pride.png" alt="Pride" class="thumb">
-                            <p class="bold extraSmall">4. Pride & Respect</p>
-                        </div>
-                        <!-- end of individual thumb -->
-                        <div class="col-md-2 col-4">
-                            <img src="assets/icons/teamwork.png" alt="Teamwork" class="thumb">
-                            <p class="bold extraSmall">5. Teamwork</p>
-                        </div>
-                        <!-- end of individual thumb -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of why us sectionn -->
-        <!-- ==========================================
-        Photo gallery
-        ========================================== -->
-        <div class="container bottomPd70">
-            <div class="centeredTitle">
-                <h3 class="titleCenterBg">Photo <span class="bolder tLarge uppercase">Gallery</span></h3>
-            </div>
-            <!-- end of the centered section title -->
-            <div class="fg-gallery">
-                <img src="assets/img/1.jpg" alt="ATS Photos">
-                <img src="assets/img/2.jpg" alt="ATS Photos">
-                <img src="assets/img/3.jpg" alt="ATS Photos">
-                <img src="assets/img/4.jpg" alt="ATS Photos">
-                <img src="assets/img/5.jpg" alt="ATS Photos">
-                <img src="assets/img/6.jpg" alt="ATS Photos">
-                <img src="assets/img/7.jpg" alt="ATS Photos">
-                <img src="assets/img/8.jpg" alt="ATS Photos">
-                <img src="assets/img/9.jpg" alt="ATS Photos">
-                <img src="assets/img/10.jpg" alt="ATS Photos">
-                <img src="assets/img/11.jpg" alt="ATS Photos">
-                <img src="assets/img/12.jpg" alt="ATS Photos">
-            </div>
         </div>
-
-        <!-- ==========================================
-        About ATS
-        ========================================== -->
-        <section id="about">
-            <div class="transLayerWhite">
-                <div class="container bottomPd70">
-                    <div class="centeredTitle">
-                        <h3 class="titleCenterBg">About <span class="bolder tLarge uppercase">ats</span></h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-7">
-                            <article class="genContent small light left">
-                                ATS – Advances Technical Services is an Engineering and Constructions company. ATS has
-                                started its journey back in 2009. ATS specialized in Mechanical Engineering, Electrical
-                                Engineering, Supply, Construction, Installation services, System Assessment, Field
-                                Surveys, Field & Detail Engineering, Project management, Procurement, Implementation,
-                                Testing/Commissioning & Commissioning Assistance Services. ATS has highly skilled
-                                manpower and exceptionally talented engineers with vast experiences in their field,
-                                providing greater accuracy and efficiency in execution. ATS team are its greatest asset
-                                and strength.
-                            </article>
-                        </div>
-                        <div class="col-md-5">
-                            <img class="img100 tbPadding20" src="assets/img/team.jpg" alt="ATS Team">
-                        </div>
-                    </div>
-                    <!-- end of the about content row -->
-                    <div class="centeredTitle">
-                        <h3 class="titleCenterBg">Our Clients</h3>
-                    </div>
-                    <!-- end of the centered section title -->
-                    <div class="my-slider">
-                        <div>
-                            <img src="assets/img/clients/1.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/2.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/3.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/4.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/5.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/6.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/7.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/8.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/9.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/10.png" alt="">
-                        </div>
-                        <div>
-                            <img src="assets/img/clients/11.png" alt="">
-                        </div>
-                    </div>
-                    <!-- end of the our clients slider -->
+        <!-- ==================================== 
+            End of Home Landing Part 
+        ====================================== -->
+        <!-- ==================================== 
+            About what we do section 
+        ====================================== -->
+        <section id="services" class="sectionGap">
+            <div class="container">
+                <div class="sectionHeadline">
+                    ATS is a leading Construction, Mechanical & Electrical service & solutions company, Serving since
+                    2009
                 </div>
-                <!-- the whole container for about -->
-            </div>
-            <!-- end of transparent white layer -->
-        </section>
-        <!-- end of about us section -->
-        <!-- ==========================================
-        Contact ATS
-        ========================================== -->
-        <section id="contact">
-            <div class="transLayerWhite">
-                <div class="container bottomPd70">
-                    <div class="centeredTitle">
-                        <h3 class="titleCenterBg">Let's <span class="bolder tLarge">talk</span></h3>
+                <!-- end of the section headline -->
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <article class="sectionContent">
+                            ATS has started its journey back in 2009. ATS specialized in Mechanical Engineering,
+                            Electrical Engineering, Supply, Construction, Installation services, System Assessment,
+                            Field Surveys, Field & Detail Engineering, Project management, Procurement, Implementation,
+                            Testing/Commissioning & Commissioning Assistance Services. ATS has highly skilled manpower
+                            and exceptionally talented engineers with vast experiences in their field, providing greater
+                            accuracy and efficiency in execution.
+                        </article>
+                        <a href="downloads/ATSprofile.pdf" target="_blank">
+                            <button class="button">
+                                Download Company Profile <i class="fas fa-download buttonI yellow"></i>
+                            </button>
+                        </a>
                     </div>
-                    <!-- end of the centered title -->
-                    <div class="row">
-                        <div class="formArea">
+                    <div class="col-md-7 col-sm-12 centerMobile" data-aos="fade-left"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1200">
+                        <div class="servicesBlock">
+                            <div class="services">
+                                <ul class="serviceList">
+                                    <li><i class="fas fa-check-circle yellow"></i> On Site Engineering</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Logistic & Vehicle Rent</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Equipment Supply & Rent</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Skilled Manpower</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Load Test & Pressure Test</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> C & F Works</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Steel Structure Fabrication</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Material Supply</li>
+                                    <li><i class="fas fa-check-circle yellow"></i> Construction Material Supply</li>
+                                </ul>
+                                <!-- end of the services list -->
+                            </div>
+                            <!-- end of services -->
+                        </div>
+                        <!-- services block -->
+                    </div>
+                    <!-- services grid column -->
+                </div>
+                <!-- end of the what we do row -->
+            </div>
+            <!-- end of the what we do container -->
+        </section>
+        <!-- ==================================== 
+            End of About what we do section 
+        ====================================== -->
+        <!-- ==================================== 
+            Why ATS section 
+        ====================================== -->
+        <section>
+            <div class="whyats">
+                <div class="blackTransLayer">
+                    <div class="container">
+                        <div class="middleAlign">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="sectionTitle">
+                                        <span class="titleThin">Why </span> ATS ?
+                                    </div>
+                                    <!-- end of the section title -->
+                                </div>
+                                <!-- end of the column 4 -->
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="sectionContent">
+                                        ATS mission is to continually improve and develop for providing better services
+                                        to meet and exceed customers expectations and contribute to their success. ATS
+                                        committed to guaranteeing its customer satisfaction so that they can build true
+                                        and collaborative relations with them, and sets itself a reliable, qualified and
+                                        trustworthy partner.
+                                    </div>
+                                    <!-- end of the section content -->
+                                </div>
+                                <!-- end of the column 8 -->
+                                <div class="row col-md-12">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-10" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                                        <div class="row justify-content-center valueBox">
+                                            <div class="col-md col-sm-4 col-6 valueInd">
+                                                <img src="assets/icons/safety.png" alt="Safety" class="valuBoxIcon">
+                                                <p class="valueBoxTitle">Safety First</p>
+                                            </div>
+                                            <!-- end of the column -->
+                                            <div class="col-md col-sm-4 col-6 valueInd">
+                                                <img src="assets/icons/solution.png" alt="Solution" class="valuBoxIcon">
+                                                <p class="valueBoxTitle">Solution</p>
+                                            </div>
+                                            <!-- end of the column -->
+                                            <div class="col-md col-sm-4 col-6 valueInd">
+                                                <img src="assets/icons/leadership.png" alt="Leadership"
+                                                    class="valuBoxIcon">
+                                                <p class="valueBoxTitle">Leadership</p>
+                                            </div>
+                                            <!-- end of the column -->
+                                            <div class="col-md col-sm-4 col-6 valueInd">
+                                                <img src="assets/icons/respect.png" alt="Pride & Respect"
+                                                    class="valuBoxIcon">
+                                                <p class="valueBoxTitle">Pride & Respect</p>
+                                            </div>
+                                            <!-- end of the column -->
+                                            <div class="col-md col-sm-4 col-6 valueInd">
+                                                <img src="assets/icons/teamwork.png" alt="Teamwork" class="valuBoxIcon">
+                                                <p class="valueBoxTitle">Teamwork</p>
+                                            </div>
+                                            <!-- end of the column -->
+                                        </div>
+                                        <!-- end of the valuebox row justified container -->
+                                    </div>
+                                    <!-- end of the col md 10 -->
+                                    <div class="col-md-1"></div>
+                                </div>
+                                <!-- end of row and column 12 -->
+                            </div>
+                            <!-- end of the row -->
+                        </div>
+                        <!-- end of why ats content -->
+                    </div>
+                    <!-- end  of the about ats container -->
+                </div>
+                <!-- end of the black transparent layer -->
+            </div>
+            <!-- end of the aboutats -->
+        </section>
+        <!-- ==================================== 
+            End of Why ATS section 
+        ====================================== -->
+        <!-- ==================================== 
+            Projects gallery 
+        ====================================== -->
+        <section class="sectionGap">
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleThin">Projects </span> GALLERY
+                </div>
+                <!-- end of the section title -->
+                <div class="row galleryIamgesWrap">
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/1.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/4.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/5.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/6.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/7.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/8.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/9.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/10.jpg" alt="Advanced Technical Services">
+                    </div>
+                    <div class="galleryIamge col-md-4 col-sm-6 col-xs-6 thumb">
+                        <img src="assets/img/gallery/12.jpg" alt="Advanced Technical Services">
+                    </div>
+                </div>
+                <!-- end of the gallery iamges wraper -->
+            </div>
+            <!-- end of the photo gallery container -->
+        </section>
+        <!-- ==================================== 
+            End of Projects gallery 
+        ====================================== -->
+        <!-- ==================================== 
+            About brief ATS 
+        ====================================== -->
+        <section>
+            <div id="about" class="aboutatsHome">
+                <div class="blackTransLayer sectionGap">
+                    <div class="container">
+                        <div class="sectionHeadline">
+                            ATS is one of the Leading Technical Service & Solution provider company in Bangladesh.
+                        </div>
+                        <!-- end of the section headline -->
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <div class="sectionAsideImage">
+                                    <img src="assets/img/aboutats.JPG" alt="ATS Team">
+                                </div>
+                                <!-- end of the section side image -->
+                            </div>
+                            <!-- end of the section side image column -->
+                            <div class="col-md-7 col-sm-12">
+                                <div class="sectionContent">
+                                    ATS - Advanced Technical Services is one of the laeding technical service and
+                                    solution provider company in Bangladesh. ATS has highly skilled manpower and
+                                    exceptionally talented engineers with vast experiences in their field, providing
+                                    greater accuracy and efficiency in execution. ATS team are its greatest asset and
+                                    strength. ATS committed to guaranteeing its customer satisfaction so that they can
+                                    build true and collaborative relations with them, and sets itself a reliable,
+                                    qualified and trustworthy partner.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of the about brief content row -->
+                        <div class="clientsSlider">
+                            <div class="titleCentered">
+                                Our Clients
+                            </div>
+                            <div class="my-slider">
+                                <div>
+                                    <img src="assets/img/clients/1.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/2.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/3.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/4.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/5.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/6.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/7.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/8.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/9.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/10.png" alt="ATS Clients">
+                                </div>
+                                <div>
+                                    <img src="assets/img/clients/11.png" alt="ATS Clients">
+                                </div>
+                            </div>
+                            <!-- end of the our clients slider -->
+                        </div>
+                        <!-- end of the clients slider -->
+                    </div>
+                    <!-- end of the about breif section -->
+                </div>
+                <!-- end of the transparent layer -->
+            </div>
+        </section>
+        <!-- ==================================== 
+            End of About brief ATS 
+        ====================================== -->
+        <!-- ==================================== 
+            Reach us section
+        ====================================== -->
+        <section id="contact" class="sectionGap">
+
+            <div class="container">
+                <div class="sectionTitle">
+                    <span class="titleThin">Let's Talk </span> BUSINESS
+                </div>
+                <!-- end of the section title -->
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 reachAside">
+                        <div class="sectionContent">
+                            In case of necessity feel free to call or mail or submit the form if you have any questions
+                            or
+                            queries. Our team respond fast and they are always happy to help.
+                        </div>
+                        <div class="contInfoList">
+                            <ul class="contactInfos">
+                                <li><a href="tel:+8809611699331"><i class="fas fa-phone-alt"></i> +88 09611 699331</a>
+                                </li>
+                                <li><a href="mailto:hello@ats-ati.com"><i class="fas fa-envelope"></i>
+                                        hello@ats-ati.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end of reach aside content -->
+                    <div class="col-md-8 col-sm-12 reachForm" data-aos="fade-left"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                        <div class="formBlock">
                             <form id="contactform">
-                                <input id="leadName" type="text" name="name" placeholder="Your Name">
-                                <br><br>
-                                <input id="email" type="email" name="_replyto" placeholder="Your Email">
-                                <br><br>
-                                <input id="subject" type="text" name="_subject" placeholder="Subject">
-                                <br><br>
-                                <textarea id="message" name="msg" placeholder="Your Message"
-                                    style="height:200px"></textarea>
-                                <br>
-                                <input type="text" name="_gotcha" style="display:none" />
-                                <!-- <input id="submit" type="submit" value="&#xf1d8 Send" > -->
-                                <button id="submit" type="submit" class="submitbtn"><i class="fas fa-paper-plane"></i>
-                                    Send</button>
+                                <h4 class="formHead">Queries/Questions</h4>
+                                <input type="text" placeholder="Name" required>
+                                <input type="tel" placeholder="Mobile Number" required>
+                                <input type="email" placeholder="E-mail" required>
+                                <textarea placeholder="Message">
+                                </textarea>
+                                <button id="#submit" class="formSubmit">Send <i
+                                        class="fas fa-paper-plane buttonI yellow"></i></button>
                                 <input type="hidden" name="_next" value="" />
                                 <div id="response" class="c-mainform_response">
                             </form>
                         </div>
-                        <!-- end of the contact section -->
+                        <!-- end of the form block -->
                     </div>
+                    <!-- reach/contact form -->
                 </div>
+                <!-- end of the reach/contact row -->
             </div>
+            <!-- end of the contact/reach container -->
         </section>
-        <!-- end of contact section -->
-
+        <!-- end of the contact/reach ats section -->
+        <!-- ==================================== 
+            End of Reach us section
+        ====================================== -->
     </main>
-    <!-- end of the whole content part -->
+    <!-- end of the whole body content -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footerBrand">
-                        <img class="tbPadding10" src="assets/img/logoAlt.png" alt="ATS">
-                        <article class="white light tbPadding10">
-                            ATS - Advanced Technical Services; Specialized in project support, heavy equipment supply
-                            and materials Supply
-                        </article>
-                    </div>
-                    <!-- end of the footer brand -->
+        <div class="container row foooterSpacing">
+            <div class="col-md-4 col-sm-12">
+                <div class="footBrand">
+                    <img src="assets/img/logoWhite.png" alt="Advanced Technical Services">
+                    <h3>ADVANCED TECHNICAL SERVICES</h3>
+                    <P>
+                        ATS - Advanced Technical Services; Specialized in project support, heavy equipment supply and
+                        materials Supply
+                    </P>
                 </div>
-                <!-- individual footer column -->
-                <div class="col-md-4">
-                    <div class="footerNav">
-                        <h4 class="normal white uppercase regular">Reach us</h4>
-                        <ul class="contInfo small">
-                            <li>Level 3, Fardan Complex, <br>Panchabati, Fatullah <br>Narayanganj - 1421 </li>
-
-                            <li><a href="tel:+8809611699331"><i class="fas fa-phone"></i> +88 09611 699331</a> </li>
-                            <li><a href="tel:+8801714084254"><i class="fas fa-mobile-alt"></i> +88 01714 084254</a>
-                            </li>
-                            <li><a href="mailto:hello@ats-ati.com"><i class="far fa-envelope"></i> hello@ats-ati.com
-                                </a></li>
-                        </ul>
-                    </div>
+                <div class="footDownload align-self-center">
+                    <a href="downloads/ATSprofile.pdf" target="_blank">
+                        <button class="button footButton">
+                            Download Company Profile
+                            <i class="fas fa-download buttonI yellow"></i></i>
+                        </button>
+                    </a>
                 </div>
-                <!-- individual footer column -->
-                <div class="col-md-5">
-                    <div id="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14620.896352744552!2d90.4759595!3d23.6321446!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe850e1c6bbe2d3d!2sATS+-+Advanced+Technical+Services!5e0!3m2!1sen!2sbd!4v1564647582090!5m2!1sen!2sbd"
-                            width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- individual footer column -->
             </div>
+            <!-- end of footer column 1 -->
+            <div class="col-md-2 col-sm-12">
+                <div class="footNav">
+                    <div class="footNavTitle">links</div>
+                    <ul class="footNavLinks">
+                        <li><a href="">Request For Quote</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of footer column 2 -->
+            <div class="col-md-3 col-sm-12">
+                <div class="footNav">
+                    <div class="footNavTitle">Get In Touch</div>
+                    <ul class="footNavList">
+                        <li>
+                            <i class="fas fa-map-marked-alt footNavI"></i>
+                            184, Block - C, Dhormogonj
+                            <br>
+                            Pakapool, Enayetnagar, Fatullah
+                            <br>
+                            Narayanganj - 1421
+                        </li>
+                        <li>
+                            <a href="tel:+8801714084254"><i class="fas fa-mobile-alt footNavI"></i> +88 01714 084254</a>
+                        </li>
+                        <li>
+                            <a href="tel:+8809611699331"><i class="fas fa-phone-alt footNavI"></i> +88 09611 699331</a>
+                        </li>
+                        <li>
+                            <a href="mailto:hello@ats-ati.com"><i class="fas fa-envelope footNavI"></i>
+                                hello@ats-ati.com</a>
+                        </li>
 
+                    </ul>
+                </div>
+            </div>
+            <!-- end of footer column 3 -->
+            <div class="col-md-3 col-sm-12">
+                <div class="footNavTitle">Locate US</div>
+                <div class="footMap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14620.896352744552!2d90.4759595!3d23.6321446!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe850e1c6bbe2d3d!2sATS%20-%20Advanced%20Technical%20Services!5e0!3m2!1sen!2sbd!4v1604839010275!5m2!1sen!2sbd"
+                        width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <!-- end of footer column 4 -->
         </div>
         <hr>
-        <div class="center">
-            <p class="copyright white light small tbPadding20">
-                All right reserved by ATS &copy; <span id="year"></span>
-            </p>
+        <div class="footCopy">
+            All right reserved by ATS &copy; <span id="year"></span>
         </div>
-        <!-- end of  the copyright content -->
     </footer>
-    <!-- end of the universal footer -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- end of the footer -->
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- contact form validator jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.79/jquery.form-validator.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- validator -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-    <!-- activating owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <!-- popups -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- tiny slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
     <script>
         var slider = tns({
             container: '.my-slider',
-            autoHeight: true,
+            autoHeight: false,
             gutter: 10,
             items: 2,
             autoplayButtonOutput: false,
             nav: false,
             touch: true,
             mouseDrag: true,
+            arrowKeys: true,
             controls: false,
             autoplay: true,
             speed: 400,
@@ -420,25 +534,9 @@
             }
         });
     </script>
-    <script src="js/gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        var a = new FgGallery('.fg-gallery', {
-            cols: 4,
-            style: {
-                border: '10px solid #fff',
-                height: '180px',
-                borderRadius: '5px',
-                boxShadow: '0 2px 10px -5px #858585',
-            }
-        })
-        var a = new FgGallery('.ns', {
-            cols: 3,
-            style: {
-                border: '0 solid #fff',
-                height: '240px',
-                borderRadius: '5px',
-            }
-        })
+        AOS.init();
     </script>
     <script src="js/scripts.js"></script>
 </body>

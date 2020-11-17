@@ -1,0 +1,149 @@
+
+.bgVid
+    position: absolute
+    // top: 0
+    // left: 0
+    width: 100%
+    height: 100vh
+    z-index: -1
+    object-fit: cover
+.blackTransLayer
+    clear: both
+    width: 100%
+    min-height: 100vh
+    background: #333333
+    opacity: .93
+    background-position: center
+    background-size: cover
+.homeLanding
+    min-height: 100vh
+    width: 100%
+.homeLandingLeft
+    color: $white
+.titleMain
+    font-family: $rubik
+    font-size: 2.1em
+    font-weight: 800
+    text-transform: uppercase
+.articleMain
+    font-family: $rubik
+    font-weight: 800
+    font-size: 2em
+    padding: 20px 0 25px 0
+    line-height: 1.8
+    text-shadow: 1px 1px  3px $primaryBlue
+    letter-spacing: 1.2
+// services section on home 
+.servicesBlock
+    margin-left: 65px
+    width: 420px
+    height: auto
+    background: $primaryBlue
+    border: none
+    border-radius: 30px
+    box-shadow: -30px 30px 0px $primaryYellow
+    transform: rotate(-8deg)
+    .services
+        padding: 80px 0
+        transform: rotate(8deg)
+        display: flex
+        justify-content: center
+        align-items: center
+        // width: 100%
+        height: 100%
+        .serviceList
+            padding: 20px
+            li 
+                font-family: $rubik
+                font-weight: 400
+                font-size: 1.1em
+                line-height: 2
+                color: $white
+.whyats
+    clear: both
+    background: url('../assets/img/whyats.jpg')
+    background-size: cover
+    background-position: center
+    color: $white
+.valueBox
+    width: 100%
+    background: #EEEEEE
+    border-radius: 30px
+    padding: 20px 0
+    margin: 25px
+    text-align: center
+    .valueInd
+        width: 20%
+        padding: 15px 0
+.valuBoxIcon
+    width: 70px
+    height: auto
+.valueBoxTitle
+    font-family: $rubik
+    font-weight: 600
+    font-size: .8em
+    text-transform: uppercase
+    color: $black
+.aboutatsHome
+    background: url('../assets/img/aboutats.jpg')
+    background-size: cover
+    width: 100%
+    background-position: center
+    color: $white
+    background-position: center
+    background-size: cover
+.my-slider
+    padding: 30px 0   
+.galleryIamgesWrap
+    padding: 40px 0 
+
+.contactInfos
+    a 
+        font-family: $rubik
+        font-weight: 600
+        font-size: 1.3em
+        color: $black
+    i 
+        font-size: .8em
+        padding: 8px
+        background: $primaryBlue
+        color: $white
+        border-radius: 50%
+        margin: 5px
+.formBlock 
+    margin-left: 65px
+    background: $primaryYellow
+    border: none
+    width: 70%
+    border-radius: 30px
+    box-shadow: -30px 30px 0px $primaryBlue
+    transform: rotate(-8deg)
+    form 
+        transform: rotate(8deg)
+        padding: 70px 55px
+        .formHead
+            color: $white
+            font-family: $rubik
+            font-weight: 600
+            padding: 15px 10px 
+            font-size: 1.3em
+            text-transform: uppercase
+        input, textarea
+            width: 100%
+            padding: 10px
+            background: transparent 
+            border: none
+            border-bottom: 2px solid rgba(255, 255, 255, .7)
+            margin-bottom: 5px
+            font-family: $lato
+            font-weight: 300
+            font-size: 1em
+            &:focus
+                outline: none
+        ::placeholder
+            color: $white
+            opacity: .8
+        textarea
+            color: $white
+            height: 150px
+            margin-bottom: 20px

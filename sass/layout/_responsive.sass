@@ -1,0 +1,114 @@
+// mobile
+@media screen and ( max-width: 786px )
+    body
+        overflow-x: hidden
+    .buttonWraper
+        width: 100%
+        flex-direction: column
+        align-items: center
+    button
+        display: block
+        margin: 10px 0
+        font-size: 12px
+    // navigation menu
+    .navbar
+        background: $primaryBlue
+    .navToggler
+        display: block
+    .navPrimary
+        height: 90px
+        width: 100%
+        padding: 0 15px
+        .logoNav
+            width: 100px
+            margin-top: -10px
+    .bgBlue .navPrimary
+        min-height: 70px
+    .navPrimaryLinks
+        justify-content: space-around
+        position: absolute
+        top: 0  
+        left: 0       
+        height: 85vh
+        top: 70px
+        background: $primaryBlue
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 100%
+        transform: translatey(-120%)
+        transition: transform 0.5s ease-in
+    .navActive
+        transform: translatey(0%)        
+    // in gen
+    .centerMobile
+        text-align: center
+    .sectionHeadline
+        font-size: 18px
+    .sectionTitle
+        font-size: 18px
+        background-size: 50px 4px
+        .titleThin
+            font-size: 14px
+    .titleCentered
+        font-size: 16px
+    .sectionContent
+        font-size: 14px
+    .sectionGap
+        padding: 30px 0
+        margin: 20px 0
+    .middleAlign
+        
+    // Home Landing
+    .bgVid
+        display: none
+    .homeWrapper
+        background: url('../assets/img/mobBg.jpg')
+        background-size: cover
+    
+        
+    .homeLanding
+        padding-top: 170px
+        text-align: center
+    .titleMain
+        font-size: 18px
+    .articleMain
+        font-size: 16px
+    .homeLandingRight
+        padding: 40px 0
+        text-align: center
+        img 
+            width: 80%
+    // services home
+    .servicesBlock
+        transform: rotate(-3deg)
+        margin-top: 50px
+        width: 75%
+        height: auto
+        .services
+            padding: 40px 0
+            transform: rotate(3deg)
+            .serviceList
+                padding: 20px
+                text-align: left
+                li 
+                    font-size: 11px
+                    line-height: 2
+    // whyats home 
+    .whyats
+        min-height: 100vh   
+    // contact form area home
+    .formBlock
+        width: 85%
+        margin-left: 35px
+        transform: rotate(-3deg)
+        form 
+            transform: rotate(3deg)
+            padding: 50px 40px
+            .formHead
+                color: $white
+                font-size: 14px
+            input, textarea
+                border-bottom: 2px solid rgba(255, 255, 255, .8)
+                font-size: 12px
+               
