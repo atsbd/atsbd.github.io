@@ -390,7 +390,7 @@
                     </div>
                     <!-- end of reach aside content -->
                     <div class="col-md-8 col-sm-12 reachForm" data-aos="fade-left"
-                    data-aos-anchor-placement="top-center" data-aos-duration="1500">
+                    data-aos-anchor-placement="top-center" data-aos-duration="2000">
                         <div class="formBlock">
                             <form id="contactform">
                                 <h4 class="formHead">Queries/Questions</h4>
@@ -536,7 +536,12 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: function() {
+                var maxWidth = 786;
+                return window.innerWidth < maxWidth;
+            } 
+        });
     </script>
     <script src="js/scripts.js"></script>
 </body>
