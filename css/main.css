@@ -801,4 +801,7 @@ footer hr {
   font-size: 1em;
 }
 
+.footCopy a {
+    color: white;
+}
 /*# sourceMappingURL=main.css.map */
